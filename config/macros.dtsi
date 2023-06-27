@@ -1,3 +1,9 @@
+macro_ysiadf_gmail: macro_ysiadf_gmail{
+compatible = "zmk,behavior-macro";
+label = "macro_ysiadf_gmail";
+#binding-cells = <0>;
+bindings = <&kp Y>, <&kp S>, <&kp I>, <&kp A>, <&kp D>, <&kp F>, <&kp AT_SIGN>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
